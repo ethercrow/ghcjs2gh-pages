@@ -7,7 +7,7 @@ import Control.Monad
 import Control.Monad.Trans
 import Optimisation.CirclePacking
 
--- import JavaScript.Canvas
+import JavaScript.Canvas
 -- import GHCJS.Types
 -- import GHCJS.Foreign
 -- import GHCJS.Marshal
