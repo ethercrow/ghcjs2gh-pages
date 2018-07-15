@@ -4093,8 +4093,7 @@ function h$releaseExport(e) {
 var h$jsstringEmpty = (h$c1(h$ghcjszmprimZCGHCJSziPrimziJSVal_con_e, ('')));
 var h$jsstringHead, h$jsstringTail, h$jsstringCons,
     h$jsstringSingleton, h$jsstringSnoc, h$jsstringUncons,
-    h$jsstringIndex, h$jsstringUncheckedIndex,
-    h$jsstringTake, h$jsstringDrop, h$jsstringTakeEnd, h$jsstringDropEnd;
+    h$jsstringIndex, h$jsstringUncheckedIndex;
 var h$fromCodePoint;
 if(String.prototype.fromCodePoint) {
     h$fromCodePoint = String.fromCodePoint;
@@ -4273,6 +4272,8 @@ function h$jsstringUnsnoc(str) {
     } else {
       { h$ret1 = (null); return (-1); };
     }
+  } else {
+    { h$ret1 = (str.substr(0,l-1)); return (ch); };
   }
 }
 function h$jsstringPack(xs) {
